@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Hero from "../components/pages/home/Hero.svelte";
+
 </script>
 
 <svelte:head>
@@ -6,12 +8,7 @@
 	<meta name="description" content="Ayena TCHIKPE portofolio" />
 </svelte:head>
 
-<section>
-	<h1>
-		Hi i'm <b>Ayena TCHIKPE</b> <br/>
-		fullstack Developper
-	</h1>
-</section>
+<Hero/>
 
 <style>
 </style>
